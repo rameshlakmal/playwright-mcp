@@ -1,0 +1,310 @@
+{
+  "uuid": "0b4454cd-7b41-48e3-816a-c73ae6cd9f56",
+  "name": "Create Employee",
+  "historyId": "47ffaca1e02a2c3f636aa2eaa361c3e3:4151609b82fd60da52fe302128be4a3c",
+  "status": "failed",
+  "statusDetails": {
+    "message": "ReferenceError: page is not defined",
+    "trace": "ReferenceError: page is not defined\n    at PIMIndexPage.ClickAddButton (C:\\Users\\rames\\Desktop\\pl\\Playwright-Automation-Framework-for-OrangeHRM-Demo\\pages\\PIM\\PIMIndexPage.js:8:5)\n    at C:\\Users\\rames\\Desktop\\pl\\Playwright-Automation-Framework-for-OrangeHRM-Demo\\tests\\EmployeeTests.spec.js:6:22"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browserType.launch",
+              "start": 1743854147521,
+              "stop": 1743854147749
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: browser",
+          "start": 1743854147518,
+          "stop": 1743854147749
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browser.newContext",
+              "start": 1743854147758,
+              "stop": 1743854148152
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1743854147752,
+          "stop": 1743854148182
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [
+            {
+              "status": "passed",
+              "statusDetails": {},
+              "stage": "finished",
+              "steps": [],
+              "attachments": [],
+              "parameters": [],
+              "name": "browserContext.newPage",
+              "start": 1743854148192,
+              "stop": 1743854148505
+            }
+          ],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1743854148184,
+          "stop": 1743854148505
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: navigation",
+          "start": 1743854148509,
+          "stop": 1743854148510
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: PimIndexPage",
+          "start": 1743854148511,
+          "stop": 1743854148512
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "Before Hooks",
+      "start": 1743854147509,
+      "stop": 1743854148512
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743854148522,
+      "name": "page.goto(https://opensource-demo.orangehrmlive.com/web/dashboard/index)",
+      "stop": 1743854151977
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1743854151981,
+      "name": "locator.getByRole('link', { name: 'PIM' }).click",
+      "stop": 1743854154042
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "screenshot",
+          "source": "38178db6-5a78-4ad9-8d41-e2dd3d25dbfc-attachment.png",
+          "type": "image/png"
+        }
+      ],
+      "parameters": [],
+      "start": 1743854155027,
+      "name": "screenshot",
+      "stop": 1743854155027
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "video",
+          "source": "ee28b83a-92c9-4548-a13d-b22982767b1a-attachment.webm",
+          "type": "video/webm"
+        }
+      ],
+      "parameters": [],
+      "start": 1743854155029,
+      "name": "video",
+      "stop": 1743854155029
+    },
+    {
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "trace",
+          "source": "6a9ab267-e5f1-46fc-ac9e-97f9356edbda-attachment.zip",
+          "type": "application/vnd.allure.playwright-trace"
+        }
+      ],
+      "parameters": [],
+      "start": 1743854155030,
+      "name": "trace",
+      "stop": 1743854155030
+    },
+    {
+      "status": "passed",
+      "statusDetails": {},
+      "stage": "finished",
+      "steps": [
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "page.screenshot",
+          "start": 1743854154053,
+          "stop": 1743854154237
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: PimIndexPage",
+          "start": 1743854154243,
+          "stop": 1743854154244
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: navigation",
+          "start": 1743854154245,
+          "stop": 1743854154245
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: page",
+          "start": 1743854154246,
+          "stop": 1743854154246
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "fixture: context",
+          "start": 1743854154247,
+          "stop": 1743854154247
+        },
+        {
+          "status": "passed",
+          "statusDetails": {},
+          "stage": "finished",
+          "steps": [],
+          "attachments": [],
+          "parameters": [],
+          "name": "video.saveAs",
+          "start": 1743854154586,
+          "stop": 1743854154594
+        }
+      ],
+      "attachments": [],
+      "parameters": [],
+      "name": "After Hooks",
+      "start": 1743854154046,
+      "stop": 1743854154603
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "Project",
+      "value": "Google Chrome"
+    }
+  ],
+  "labels": [
+    {
+      "name": "language",
+      "value": "javascript"
+    },
+    {
+      "name": "framework",
+      "value": "playwright"
+    },
+    {
+      "name": "package",
+      "value": "EmployeeTests.spec.js"
+    },
+    {
+      "name": "titlePath",
+      "value": " > Google Chrome > EmployeeTests.spec.js"
+    },
+    {
+      "name": "host",
+      "value": "Lakmal"
+    },
+    {
+      "name": "thread",
+      "value": "pid-19092-worker-0"
+    },
+    {
+      "name": "parentSuite",
+      "value": "Google Chrome"
+    },
+    {
+      "name": "suite",
+      "value": "EmployeeTests.spec.js"
+    }
+  ],
+  "links": [],
+  "start": 1743854147503,
+  "testCaseId": "47ffaca1e02a2c3f636aa2eaa361c3e3",
+  "fullName": "EmployeeTests.spec.js:4:5",
+  "stop": 1743854154341
+}

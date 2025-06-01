@@ -1,0 +1,29 @@
+{
+  "workbench.iconTheme": "material-icon-theme",
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+  "git.autofetch": true,
+  "security.workspace.trust.untrustedFiles": "open",
+  "git.confirmSync": false,
+  "remote.SSH.remotePlatform": {
+    "65.1.111.252": "linux",
+    "13.233.151.93": "linux",
+    "3.110.153.55": "linux",
+    "3.110.43.110": "linux",
+    "3.110.123.207": "linux",
+    "13.232.240.74": "linux",
+    "13.233.193.104": "linux"
+  },
+
+  "workbench.startupEditor": "none",
+  "workbench.colorTheme": "Material Theme Ocean High Contrast",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "mcp": {
+    "servers": {
+      "playwright": {
+        "command": "npx",
+        "args": ["@playwright/mcp@latest"]
+      }
+    }
+  }
+}
