@@ -5,7 +5,7 @@
   "status": "failed",
   "statusDetails": {
     "message": "ReferenceError: page is not defined",
-    "trace": "ReferenceError: page is not defined\n    at PIMIndexPage.ClickAddButton (C:\\Users\\rames\\Desktop\\pl\\Playwright-Automation-Framework-for-OrangeHRM-Demo\\pages\\PIM\\PIMIndexPage.js:8:5)\n    at C:\\Users\\rames\\Desktop\\pl\\Playwright-Automation-Framework-for-OrangeHRM-Demo\\tests\\EmployeeTests.spec.js:6:22"
+    "trace": "ReferenceError: page is not defined"
   },
   "stage": "finished",
   "steps": [
