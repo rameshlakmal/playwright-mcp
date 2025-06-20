@@ -31,7 +31,7 @@ jobs:
 
       - name: Start Playwright MCP Server
         run: |
-          start /b cmd /c "npx @playwright/mcp"
+          npx playwright-mcp server
           timeout /t 10
 
       - name: Run tests
